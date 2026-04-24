@@ -109,3 +109,87 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.password-label {
+  margin-top: 32px;
+}
+
+.eye-button {
+  width: 22px;
+  height: 22px;
+  border: 0;
+  padding: 0;
+  margin-left: 10px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.eye-button img {
+  width: 18px;
+  height: 18px;
+}
+
+.input-box input[type="password"] {
+  letter-spacing: 2px;
+}
+
+.forgot-button {
+  display: block;
+  margin: 18px 0 0 auto;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #727785;
+  cursor: pointer;
+}
+
+.login-button {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 12px;
+  background: #2170e4;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  box-shadow: 0 10px 20px rgba(33, 112, 228, 0.28);
+  cursor: pointer;
+}
+
+.signup-guide {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.signup-guide span {
+  color: #424754;
+  font-weight: 500;
+}
+
+.signup-guide button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #0058be;
+  cursor: pointer;
+}
