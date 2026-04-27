@@ -215,3 +215,305 @@ body {
   padding: 20px 24px 100px;
   text-align: center;
 }
+
+.add-content {
+  flex: 1;
+  padding: 30px 24px 100px;
+  text-align: left;
+}
+
+.add-title {
+  margin: 0;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  letter-spacing: -1.2px;
+  color: #0b1c33;
+}
+
+.add-description {
+  margin: 18px 0 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  color: #424754;
+}
+
+.add-field {
+  margin-top: 38px;
+}
+
+.add-label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 800;
+  color: #0058be;
+}
+
+.add-input {
+  width: 100%;
+  height: 56px;
+  border: 0;
+  outline: none;
+  border-radius: 12px;
+  background: #eef4ff;
+  padding: 0 18px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0f172a;
+}
+
+.add-input::placeholder {
+  color: #b8c0cf;
+}
+
+.add-input:focus {
+  box-shadow: 0 0 0 2px rgba(33, 112, 228, 0.15);
+}
+
+
+.date-field {
+  margin-top: 28px;
+}
+
+.date-input-box {
+  width: 100%;
+  height: 56px;
+  border-radius: 12px;
+  background: #eef4ff;
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+}
+
+.date-input-box img {
+  width: 20px;
+  height: 20px;
+  margin-right: 24px;
+  flex-shrink: 0;
+}
+
+.date-input-box input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.date-input-box input::placeholder {
+  color: #0f172a;
+}
+
+.date-input-box:focus-within {
+  box-shadow: 0 0 0 2px rgba(33, 112, 228, 0.15);
+}
+
+.category-field {
+  margin-top: 28px;
+}
+
+.category-field .add-label {
+  margin-bottom: 12px;
+}
+
+.category-list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.category-button {
+  min-width: 52px;
+  height: 36px;
+  border: 0;
+  border-radius: 18px;
+  background: #e3ecff;
+  padding: 0 16px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #424754;
+  cursor: pointer;
+}
+
+.category-button.active {
+  background: #0058be;
+  color: #ffffff;
+}
+
+.detail-field {
+  margin-top: 28px;
+}
+
+.detail-textarea {
+  width: 100%;
+  height: 126px;
+  border: 0;
+  outline: none;
+  resize: none;
+  border-radius: 12px;
+  background: #eef4ff;
+  padding: 18px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #0f172a;
+}
+
+.detail-textarea::placeholder {
+  color: #b8c0cf;
+}
+
+.detail-textarea:focus {
+  box-shadow: 0 0 0 2px rgba(33, 112, 228, 0.15);
+}
+
+.tip-card {
+  margin-top: 28px;
+  width: 100%;
+  height: 140px;
+  border-radius: 24px;
+  background: #e9f1ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tip-title {
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0058be;
+}
+
+.tip-desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #424754;
+}
+
+.tip-icon {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background: #dbe8ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tip-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.save-button {
+  margin-top: 88px;
+  width: 100%;
+  height: 58px;
+  border: 0;
+  border-radius: 14px;
+  background: #2170e4;
+  box-shadow: 0 14px 26px rgba(33, 112, 228, 0.28);
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.save-button img {
+  width: 18px;
+  height: 18px;
+}
+
+.signup-page {
+  width: 390px;
+  min-height: 884px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f7f9ff 0%, #f4f7ff 55%, #eef9f6 100%);
+}
+
+.signup-card {
+  padding-top: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-title {
+  margin: -8px 0 0;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 900;
+  letter-spacing: -1.2px;
+  color: #0058be;
+  text-align: center;
+}
+
+.signup-description {
+  margin: 12px 0 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  color: #424754;
+  text-align: center;
+}
+
+.signup-form {
+  width: 282px;
+  margin-top: 34px;
+}
+
+.signup-panel {
+  padding: 28px 26px;
+}
+
+.signup-submit-button {
+  margin-top: 28px;
+}
+
+.signup-guide {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.signup-guide span {
+  color: #424754;
+  font-weight: 500;
+}
+
+.signup-guide button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #0058be;
+  cursor: pointer;
+}
