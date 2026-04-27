@@ -3,10 +3,11 @@ import "./App.css";
 
 import TodoPage from "./TodoPage";
 import AddTodoPage from "./AddTodoPage";
+import SignupPage from "./SignupPage";
 
 function App() {
   const [showPassword, setShowPassword] = useState(false);
-  const [page, setPage] = useState("todo"); // 일단 임시로 페이지 바꿔둠 !! 다 하면 login 으로 바꿀 것!
+  const [page, setPage] = useState("login"); // 일단 편의를 위해 페이지 바꿔둠 !! 다 하면 login 으로 바꿀 것!
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -28,6 +29,10 @@ function App() {
   if (page === "add") {
     return <AddTodoPage goToHome={() => setPage("todo")} />;
   }
+
+  if (page === "signup") {
+  return <SignupPage goToLogin={() => setPage("login")} />;
+}
 
   return (
     <main className="login-page">
@@ -85,7 +90,9 @@ function App() {
 
           <div className="signup-guide">
             <span>계정이 없으신가요?</span>
-            <button type="button">회원가입</button>
+             <button type="button" onClick={() => setPage("signup")}>
+               회원가입
+             </button>
           </div>
         </form>
       </section>
